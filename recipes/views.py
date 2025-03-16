@@ -10,9 +10,3 @@ def home(request):
     return render(request, 'home.html', context={
         'name': 'GG Gataun!!!',
     })
-
-def contact(request):
-    return HttpResponse('*** CONTATO - 27-99999.3344 ***')
-
-def about(request):
-    return HttpResponse('*** SOBRE NÓS ==>> EU  E TU ***')
